@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="shortcut icon" href="src/images/jogo-da-velha.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+
+    <div id="caixa-jogo">
+        <h2> Vez do X</h2>
+        <table id="tabela">
+            <tr>
+                <td class="quadrado"></td>
+                <td class="quadrado"></td>
+                <td class="quadrado"></td>
+
+            </tr>
+
+            <tr>
+                <td class="quadrado"></td>
+                <td class="quadrado"></td>
+                <td class="quadrado"></td>
+
+            </tr>
+
+            <tr>
+                <td class="quadrado"></td>
+                <td class="quadrado"></td>
+                <td class="quadrado"></td>
+
+            </tr>
+
+        </table>
+        <button id="botao" onclick="reiniciar()">
+            NOVO JOGO
+        </button>
+    </div>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
